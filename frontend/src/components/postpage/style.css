@@ -1,0 +1,172 @@
+.addPostMain {
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 41px;
+}
+
+.img {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+}
+
+.imgAndName {
+  margin-top: 15px;
+  margin-left: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mainDaiv {
+  border-style: outset;
+  border-color: rgb(105, 100, 100);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0);
+  width: 950px;
+  margin-top: 100px;
+}
+.postImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 950px;
+  height: 600px;
+  border-radius: 20px;
+}
+
+.postsDiv {
+  display: flex;
+  width: 950px;
+  background-color: rgb(24, 26, 27);
+  flex-direction: column-reverse;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.tokenAddpost {
+  width: 100px;
+  border-radius: 10px;
+}
+
+.whitespace {
+  display: flex;
+  justify-content: space-between;
+}
+.whitespaceimh {
+  position: sticky;
+  top: 0;
+  height: 1200px;
+  width: 300px;
+}
+
+.dropbtn {
+  background-color: rgb(24, 26, 27);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(24, 26, 27);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content button {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border: none;
+  font-size: large;
+  color: white;
+  background-color: rgb(24, 26, 27);
+  width: 100%;
+}
+
+.dropdown-content button:hover {
+  cursor: pointer;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+.dropdownlist {
+  border: 3px;
+}
+
+.whitespaceim {
+  height: 1200px;
+  width: 300px;
+}
+.posttext {
+  color: white;
+}
+.imgAndNameAndListChild {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.imgAndNamemain {
+  display: flex;
+  gap: 1rem;
+  margin-left: 1rem;
+
+}
+.commentChild {
+  display: flex;
+justify-content: space-between;
+  gap: 20px;
+
+}
+.imgNAme{
+display: flex;
+gap: 1rem;
+
+}
+
+.commentername {
+  color: white;
+}
+
+.comment {
+  color: white;
+}
+
+
+
+.inputt {
+  height: 25px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+.postinput {
+  width: 500px;
+  height: 40px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.addpostbutton {
+  border-radius:10px;
+  width: 15%;
+}
